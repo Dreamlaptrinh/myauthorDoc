@@ -1,6 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair&display=swap');
 .App {
   text-align: center;
 }
+
+.book{
+  display: flex;
+  flex-direction: column;
+  background-color:#dcdcdc30;
+  width: 800px;
+  margin: auto;
+  border-radius: 50px;
+}
+.random{
+  margin: 12px auto;
+  width: 120px;
+  height: 30px;
+  display: flex;
+}
+.random button{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Playfair', serif;
+  font-size: 20px;
+  border-radius: 15px;
+}
+.random button .icon{
+  width: 12px;
+  height: 12px;
+}
+.infor .inforCon{
+  font-family: 'Playfair', serif;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: white;
+  width: 500px;
+  margin: 12px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 5px solid #ffa400;
+}
+.infor .inforCon p{
+  width: 450px;
+}
+.infor .inforCon2{
+  background-color: white;
+  width: 500px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 12px auto;
+  border-left: 5px solid #ffa400;
+
+}
+.infor .inforCon2:hover{
+  background-color: black;
+  color: white;
+}
+.infor .inforCon2 .inforEle{
+  width: 200px;
+  font-family: 'Playfair', serif;
+}
+.infor .inforCon2 .inforEle .author{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 12px 0;
+}
+.infor .inforCon2 .inforEle .category{
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  align-items: center;
+}
+
+.book .content{
+  display: flex;
+  width: 500px;
+  border-left: 5px solid #ffa400;
+  margin: 24px auto;
+  flex-direction: column;
+}
+.book .content p{
+  width: 350px;
+  margin: auto;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
